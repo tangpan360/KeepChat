@@ -10,6 +10,7 @@
 - `project-conventions.md`：当前阶段的项目约定、工作方式与基础共识。
 - `git-workflow-and-release.md`：分支策略、开发流程、版本号与发布方式。
 - `feature-structure.md`：当前产品的功能模块、能力边界与后续增强方向。
+- `v1-user-flows.md`：V1 核心流程与网页增强流程的交互基线。
 
 ## 使用建议
 - 讨论产品方向时，先看 `product-overview.md`。
@@ -19,3 +20,4 @@
 - 需要确认当前项目约定和工作方式时，先看 `project-conventions.md`。
 - 需要确认分支怎么开、版本怎么发时，先看 `git-workflow-and-release.md`。
 - 需要确认当前产品有哪些功能模块时，先看 `feature-structure.md`。
+- 需要继续细化 V1 交互时，先看 `v1-user-flows.md`。
