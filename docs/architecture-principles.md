@@ -52,6 +52,8 @@
 职责：
 - 模型调用
 - 对话组织
+- memory / persistence
+- streaming
 - RAG
 - tool / agent
 - 工作流编排
@@ -59,6 +61,9 @@
 原则：
 - 可以以 LangChain 为核心 AI 实现。
 - 但产品历史、用户体系、会话归档、附件和文档归属不应完全交给 LangChain 内部结构管理。
+- LangChain 更适合作为 AI 引擎层，而不是整个插件产品的数据和交互骨架。
+- LangChain / LangGraph 的 persistence、memory、checkpointer 更适合服务 AI 运行时状态，不应直接替代产品主存储。
+- 产品正式数据仍应以自己的会话、消息、附件、上下文和配置模型为准，再按需映射到 LangChain 的运行时输入。
 
 ### 5. 基础设施层
 职责：

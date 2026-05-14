@@ -11,6 +11,8 @@
 - `git-workflow-and-release.md`：分支策略、开发流程、版本号与发布方式。
 - `feature-structure.md`：当前产品的功能模块、能力边界与后续增强方向。
 - `v1-user-flows.md`：V1 核心流程与网页增强流程的交互基线。
+- `v1-module-design.md`：V1 的模块划分、职责边界与当前实现重点。
+- `v1-data-model.md`：V1 的核心对象、存储边界与当前数据关系。
 
 ## 使用建议
 - 讨论产品方向时，先看 `product-overview.md`。
@@ -21,3 +23,5 @@
 - 需要确认分支怎么开、版本怎么发时，先看 `git-workflow-and-release.md`。
 - 需要确认当前产品有哪些功能模块时，先看 `feature-structure.md`。
 - 需要继续细化 V1 交互时，先看 `v1-user-flows.md`。
+- 需要继续细化 V1 模块职责时，先看 `v1-module-design.md`。
+- 需要继续细化会话、消息、附件和存储边界时，先看 `v1-data-model.md`。
