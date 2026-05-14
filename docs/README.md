@@ -14,6 +14,7 @@
 - `v1-module-design.md`：V1 的模块划分、职责边界与当前实现重点。
 - `v1-data-model.md`：V1 的核心对象、存储边界与当前数据关系。
 - `v1-api-and-state.md`：V1 的接口边界、流式回复与本地/云端状态流转。
+- `v1-implementation-plan.md`：V1 的实现顺序、最小链路与阶段推进计划。
 
 ## 使用建议
 - 讨论产品方向时，先看 `product-overview.md`。
@@ -27,3 +28,4 @@
 - 需要继续细化 V1 模块职责时，先看 `v1-module-design.md`。
 - 需要继续细化会话、消息、附件和存储边界时，先看 `v1-data-model.md`。
 - 需要继续细化插件请求、后端响应和状态流转时，先看 `v1-api-and-state.md`。
+- 准备真正开始开发时，先看 `v1-implementation-plan.md`。
