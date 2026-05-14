@@ -8,6 +8,7 @@
 - `v1-scope.md`：当前版本范围、非目标与优先级。
 - `git-commit-guidelines.md`：提交信息格式、类型、scope 与示例。
 - `project-conventions.md`：当前阶段的项目约定、工作方式与基础共识。
+- `git-workflow-and-release.md`：分支策略、开发流程、版本号与发布方式。
 
 ## 使用建议
 - 讨论产品方向时，先看 `product-overview.md`。
@@ -15,3 +16,4 @@
 - 准备开始实现或拆需求时，先看 `v1-scope.md`。
 - 准备提交代码或整理历史时，先看 `git-commit-guidelines.md`。
 - 需要确认当前项目约定和工作方式时，先看 `project-conventions.md`。
+- 需要确认分支怎么开、版本怎么发时，先看 `git-workflow-and-release.md`。
